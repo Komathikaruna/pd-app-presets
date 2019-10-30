@@ -20,14 +20,12 @@
         "vue-axios-plugin": {}
       },
       "router": true,
+      "jquery" : "jQuery",
       "routerHistoryMode": true,
       "vuex": true,
       "configs": {
         "vue": {
           "vue-template-compiler" : "*"
-        },
-        "externals":{
-          "jquery" : "jQuery"
         }
       }
   }
