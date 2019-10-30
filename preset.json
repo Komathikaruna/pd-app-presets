@@ -16,7 +16,8 @@
             "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "en"
-          }
+          },
+        "axios": "*"
       },
       "router": true,
       "routerHistoryMode": true,
