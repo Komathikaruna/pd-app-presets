@@ -25,6 +25,6 @@
         "vue": {
           "vue-template-compiler" : "*"
         },
-        "axios": "*"
+        "axios": {}
       }
   }
