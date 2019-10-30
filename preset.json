@@ -13,11 +13,16 @@
             "useCustomProperties": false,
             "iconFont": "mdi",
             "installFonts": false,
+            "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "en"
-          }
+          },
+          "vue-cli-plugin-vuetify-essentials": {}
       },
       "router": true,
       "routerHistoryMode": true,
-      "vuex": true
+      "vuex": true,
+      "configs": {
+        "vue": {}
+      }
   }
