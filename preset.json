@@ -1,6 +1,5 @@
 {
     "useConfigFiles": true,
-    "cssPreprocessor": "sass",
     "plugins": {
         "@vue/cli-plugin-babel": {},
         "@vue/cli-plugin-eslint": {
@@ -14,21 +13,11 @@
             "useCustomProperties": false,
             "iconFont": "mdi",
             "installFonts": false,
-            "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "en"
-          },
-          "vue-cli-plugin-vuetify-essentials": {},
-          "vue-cli-plugin-vuetify-cli": {}
+          }
       },
       "router": true,
       "routerHistoryMode": true,
-      "vuex": true,
-      "configs": {
-        "vue": {
-          "devServer": {
-            "disableHostCheck": true
-          }
-        }
-      }
+      "vuex": true
   }
