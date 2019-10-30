@@ -7,16 +7,19 @@
           "lintOn": ["save"]
         },
         "vue-cli-plugin-vuetify": {
-            "preset": "configure",
-            "replaceComponents": false,
-            "useTheme": false,
-            "useCustomProperties": false,
-            "iconFont": "mdi",
-            "installFonts": false,
-            "useAlaCarte": true,
-            "usePolyfill": true,
-            "locale": "en"
-          }
+          "preset": "configure",
+          "replaceComponents": false,
+          "useTheme": false,
+          "useCustomProperties": false,
+          "iconFont": "mdi",
+          "installFonts": false,
+          "useAlaCarte": true,
+          "usePolyfill": true,
+          "locale": "en"
+        },
+        "axios": {
+          "preset": "configure"
+        }
       },
       "router": true,
       "routerHistoryMode": true,
@@ -24,7 +27,6 @@
       "configs": {
         "vue": {
           "vue-template-compiler" : "*"
-        },
-        "axios": {}
+        }
       }
   }
