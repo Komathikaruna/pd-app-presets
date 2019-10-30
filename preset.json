@@ -16,13 +16,14 @@
             "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "en"
-          },
-          "vue-cli-plugin-vuetify-essentials": {}
+          }
       },
       "router": true,
       "routerHistoryMode": true,
       "vuex": true,
       "configs": {
-        "vue": {}
+        "vue": {
+          "vue-template-compiler" : "*"
+        }
       }
   }
