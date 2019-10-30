@@ -1,6 +1,5 @@
 {
     "useConfigFiles": true,
-    "axios": {},
     "plugins": {
         "@vue/cli-plugin-babel": {},
         "@vue/cli-plugin-eslint": {
@@ -18,9 +17,7 @@
           "usePolyfill": true,
           "locale": "en"
         },
-        "axios": {
-          "preset": "configure"
-        }
+        "vue-axios-plugin": {}
       },
       "router": true,
       "routerHistoryMode": true,
