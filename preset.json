@@ -25,6 +25,9 @@
       "configs": {
         "vue": {
           "vue-template-compiler" : "*"
+        },
+        "externals":{
+          "jquery" : "jQuery"
         }
       }
   }
