@@ -16,8 +16,7 @@
             "useAlaCarte": true,
             "usePolyfill": true,
             "locale": "en"
-          },
-        "axios": "*"
+          }
       },
       "router": true,
       "routerHistoryMode": true,
@@ -25,6 +24,7 @@
       "configs": {
         "vue": {
           "vue-template-compiler" : "*"
-        }
+        },
+        "axios": "*"
       }
   }
